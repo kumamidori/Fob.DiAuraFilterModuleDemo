@@ -21,6 +21,5 @@ Aura.Filter カスタムルールを使うサンプルアプリケーション
 
 ## Links
 
-Aura.Filter カスタムバリデータクラスでDIが使えるようにするモジュール
-
-[kumamidori/DiAuraFilterModule](https://github.com/kumamidori/DiAuraFilterModule)
+- [Fob.DiAuraFilterModule](https://github.com/kumamidori/DiAuraFilterModule)
+- [続・Aura\.Filter カスタムバリデーションの作成](https://qiita.com/kumamidori/items/5c364a5219cec3698ec3)
