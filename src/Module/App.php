@@ -1,5 +1,6 @@
 <?php
-namespace MyVendor\MyProject\Module;
+declare(strict_types=1);
+namespace Fob\DiAuraFilterModuleDemo\Module;
 
 use BEAR\Sunday\Extension\Application\AbstractApp;
 

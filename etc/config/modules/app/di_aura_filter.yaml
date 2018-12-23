@@ -1,0 +1,14 @@
+di_aura_filter:
+  # バリデーター構成
+  validate_filters:
+    # カスタムルール名にクラスを直接指定する場合
+    app.name_in:
+      class: 'Fob\DiAuraFilterModuleDemo\Bridge\AuraFilter\NamesValidator'
+    # カスタムルール名にサービスコールバックを指定する場合
+    app.kuma_spec:
+      type: 'callback'
+      callback: 'Fob\DiAuraFilterModuleDemo\Hello\KumaSpec'
+  # サニタイザー構成
+  sanitize_filters:
+    app.name_mask:
+      class: 'Fob\DiAuraFilterModuleDemo\Bridge\AuraFilter\NameMaskSanitizer'
